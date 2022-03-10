@@ -1,3 +1,5 @@
+//trabalhando arrays inicio
+
 //medias 10, 6.5,8,7.5
 
 //let media1 = 10
