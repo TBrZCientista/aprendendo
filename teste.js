@@ -1,5 +1,14 @@
-const numeros = [43, 50, 65, 12]
+const objPersonagem = {
+    nome: "Gandalf",
+    classe: "mago",
+    nivel: "20",
+    aliado: {
+      nome: "Saruman",
+      classe: "mago"
+    },
+    status: "desaparecido"
+   }
 
-const soma = numeros.reduce((acum, atual) => atual + acum, 0)
+   delete objPersonagem.aliado
 
-console.log(soma) //170
+console.log(objPersonagem.aliado) //undefined
