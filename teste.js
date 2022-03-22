@@ -12,3 +12,5 @@ const objPersonagem = {
    delete objPersonagem.aliado
 
 console.log(objPersonagem.aliado) //undefined
+
+//fazendo uma alteração de teste
